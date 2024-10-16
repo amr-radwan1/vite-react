@@ -1,4 +1,3 @@
-import {Component, useState} from 'react'
 import './Product.css'
 import Button from "@mui/material/Button";
 
