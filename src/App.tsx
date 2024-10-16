@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 
 import './App.css'
 import Header from '../components/Header-Component/Header'
@@ -7,7 +7,7 @@ import AboutSection from '../components/About-Component/AboutSection'
 import Product from '../components/Product-Component/Product'
 
 function App() {
-  const [count, setCount] = useState(0)
+ // const [count, setCount] = useState(0)
 
   return (
     <>
