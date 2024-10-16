@@ -1,0 +1,100 @@
+.Section_product
+{
+    background-color:rgb(62, 43, 34) ;
+    height:max-content;
+    padding: 15px;
+    padding-bottom: 150px;
+}
+.first-row{
+    display: grid;
+    grid-template-columns: 35% 40%;
+    justify-content: center;
+    color:white;
+}
+#and{
+    position: relative;
+    left:12%;
+}
+.first-row p{
+    font-size: 23px;
+    line-height: 40px;
+}
+.first-row h1{
+    font-size: 45px ;
+    vertical-align: middle;
+}
+.second-row{
+    margin-top: 30px;
+    display: grid;
+    width:100%;
+    grid-template-columns: repeat(3,24%);
+    gap:3%;
+    justify-content: center;
+
+}
+.Items{
+    height:700px;
+    background-color: white;
+}
+.ImageHolder{
+    background-image:url("https://www.kitchensbyauthentic.ca/wp-content/uploads/2023/11/newly-renovated-kitchen.jpg") ;
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:180px;
+    
+}
+hr{
+    margin:20px 0px;
+    border:3px solid silver;
+   
+}
+.Item2{
+    padding:20px 40px;
+}
+.second-row h4, .all-span{
+ text-transform: uppercase;
+}
+.all-span{
+    padding-top: 20px;
+    font-weight: 200;
+}
+.all-span span:hover{
+   color: rgba(224, 88, 42, 255);
+}
+.second-row
+{
+    
+    font-weight: bold;
+}
+
+.second-row p{
+    line-height: 22px;
+    color: gray;
+    height:100px;
+    
+    font-weight: lighter;
+}
+.contact-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-us button{
+    background-color: rgba(224, 88, 42, 255);
+}
+.contact-us button:hover{
+    background-color: rgba(224, 88, 42, 0.8);
+}
+.image2{
+    background-image: url("https://kitchenandbath.ca/wp-content/uploads/2023/02/Bathroom_1.jpg");
+}
+
+.image3{
+    background-image: url("https://www.totalrenotech.ca/wp-content/uploads/2023/10/basement-renovation.jpg");
+}
+
+.Items:hover{
+    transform: translateY(-20px);
+    transition: transform 0.5s ease;
+}
