@@ -1,9 +1,9 @@
 #AboutUs{
     display: grid;
-    grid-template-columns:40% 30%;
+    grid-template-columns:40% 40%;
     justify-content: center;
     align-items: start;
-    height:75vh;
+    height:90vh;
     padding-top: 5%;
     gap:30px;
 }
@@ -19,20 +19,20 @@
     display: flex;
     flex-direction: column;
     place-items: start;
-    height:400px;
+    height:420px;
     
 }
 .AboutImg{
     display: flex;
-    height:400px;
+    height:410px;
     flex-direction: column;
     place-items: start;
     gap:15px;
     
 }
 .AboutImg button{
-    height: 60px;
-    width: 150px;
+    height: 80px;
+    width: 170px;
     border-radius: 5px; 
     color: white; 
     font-size: 14px; 
@@ -62,7 +62,7 @@
     height:320px;
     line-height: 0;
     width:25%;
-    transform: translateY(-50%);
+    transform: translateY(-40%);
     display: flex;
    justify-content: center;
     align-items: center;

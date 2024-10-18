@@ -1,4 +1,3 @@
-//import {useState} from 'react'
 import './SectionOne.css'
 import Button from "@mui/material/Button";
 
