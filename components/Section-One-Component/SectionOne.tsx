@@ -4,7 +4,8 @@ import Button from "@mui/material/Button";
 
 function SectionOne(){
     return(
-           <section className="section-One">
+        <>
+        <section className="section-One">
             <div className="section-Content">
                 <h1>Alex</h1>
                 <h2>RENOVATIONS</h2>
@@ -13,7 +14,7 @@ function SectionOne(){
             </div>
         </section>
 
-        
+        </>
     );
 }
 export default SectionOne;
