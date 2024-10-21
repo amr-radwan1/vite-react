@@ -8,6 +8,7 @@
 }
 .Contact-Section{
    
+    text-transform: uppercase;
     background-color:  rgb(62, 43, 34);
     color: white;
     display: flex;

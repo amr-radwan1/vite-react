@@ -12,19 +12,19 @@ function Contact(){
                     <h1>Contact Us Now!</h1>
 
                     <div>
-                        <span className="material-icons">phone</span>
+                        <span className="material-icons">email</span>
                         <h4>OUR EMAIL</h4>
                         <p>info@alexrenovations.com</p>
                     </div>
 
                     <div>
-                        <span className="material-icons">Map</span>
+                        <span className="material-icons">map</span>
                         <h4>Address</h4>
                         <p>1234, ABC, Brampton,Ontario, L6E 4X9,Canada</p>
                     </div>
 
                     <div>
-                        <span className="material-icons">Phone</span>
+                        <span className="material-icons">phone</span>
                         <h4>Phone Number</h4>
                         <p>419-999-0241</p>
                     </div>
