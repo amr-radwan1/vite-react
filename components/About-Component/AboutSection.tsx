@@ -7,7 +7,7 @@ function AboutSection(){
         <div className="AboutUs-Info">
             <h1>ABOUT US</h1>
                 <p>
-                    At<strong> Alex Renovations</strong>, we take pride in offering top-tier contracting services.
+                    At<strong> Alex Home Renovations</strong>, we take pride in offering top-tier contracting services.
                     Our mission is to enhance the value of your home while infusing passion into every project we undertake, providing tailored solutions for all your renovation needs.
                 </p>
                 <p>

@@ -8,7 +8,7 @@ function Contact(){
         <div className="Contact-Container">
             <div className="Contact-Section">
                 <div className="Contact-Content">
-                    <h3>Alex Renovations</h3>
+                    <h3>Alex Home Renovations</h3>
                     <h1>Contact Us Now!</h1>
 
                     <div>

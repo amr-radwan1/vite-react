@@ -31,7 +31,7 @@
 }
 
 .section-One h1 {
-    font-size: 110px; 
+    font-size: 120px; 
     line-height: 1; 
     margin: 0; 
     text-shadow: 4px 4px rgba(224, 88, 42, 255);
@@ -41,7 +41,7 @@
 
 .section-One h2 {
     line-height: 1.5; 
-    font-size: 39px; 
+    font-size: 30px; 
     margin: 10px 0; 
     font-style: italic;
     position: relative;
