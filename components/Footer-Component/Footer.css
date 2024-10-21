@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #f1f1f1; 
+    font-size: 14px; 
+    color: #333; 
+  }
+  
+  .footer h5 {
+    margin: 0 10px; 
+    font-weight: normal;
+  }
+  
+  .separator {
+    color: #999; 
+  }
+  

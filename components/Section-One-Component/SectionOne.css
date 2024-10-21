@@ -31,18 +31,10 @@
     line-height: 1; 
     margin: 0; 
     text-shadow: 4px 4px rgba(224, 88, 42, 255);
-    animation:shadowbreathe 0.5 infinite ease-in-out;
    
 }
 
-@keyframes shadowbreathe{
-    0%{
-        text-shadow: 4px 4px rgba(224, 88, 42, 0.8);
-    }
-    100%{
-        text-shadow: 4px 4px rgba(224, 88, 42, 1);
-    }
-}
+
 .section-One h2 {
     line-height: 1.5; 
     font-size: 36px; 
