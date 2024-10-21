@@ -13,21 +13,25 @@
     text-align: center; 
     background-repeat: no-repeat;
     
+}
+
+
+
+.section-Content {
+    margin-top: 5%;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 40vh;
+    place-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
     
 }
 
-.section-Content {
-    position: absolute;
-    top: 100px; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    text-transform: uppercase;
-    padding: 0 20px; 
-    font-style: italic;
-}
-
 .section-One h1 {
-    font-size: 100px; 
+    font-size: 110px; 
     line-height: 1; 
     margin: 0; 
     text-shadow: 4px 4px rgba(224, 88, 42, 255);
@@ -37,7 +41,7 @@
 
 .section-One h2 {
     line-height: 1.5; 
-    font-size: 36px; 
+    font-size: 39px; 
     margin: 10px 0; 
     font-style: italic;
     position: relative;
@@ -49,12 +53,12 @@
 }
 
 .section-One button {
-    height: 70px;
-    width: 200px;
+    height: 90px;
+    width: 220px;
     border-radius: 5px; 
     background-color: rgba(255, 255, 255, 0.8); 
     color: #333; 
-    font-size: 18px; 
+    font-size: 20px; 
     border: none; 
     cursor: pointer; 
     transition: background-color 0.4s ease; 
