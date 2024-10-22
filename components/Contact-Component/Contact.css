@@ -1,0 +1,28 @@
+.Contact-Container{
+   
+    height:80vh;
+    display: grid;
+    margin-top: 5%;
+    justify-content: center;
+    grid-template-columns: 80%;
+}
+.Contact-Section{
+   
+    text-transform: uppercase;
+    background-color:  rgb(62, 43, 34);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.Contact-Form{
+    background-color: rgb(62, 43, 34);
+    width:40%;
+    transform:translateY(-10%);
+    padding: 10px;
+
+}
+.Contact-Form form{
+    background-color: white;
+    height:100%;
+
+}
