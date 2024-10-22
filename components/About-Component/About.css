@@ -30,6 +30,10 @@
     gap:15px;
     
 }
+.AboutImg img{
+    width : 10%;
+}
+
 .AboutImg button{
     height: 80px;
     width: 170px;
@@ -52,8 +56,6 @@
     height:28vh;
     display: flex;
     justify-content: center;
-    
-
 
 }
  .final-row .column{
@@ -64,7 +66,7 @@
     width:25%;
     transform: translateY(-40%);
     display: flex;
-   justify-content: center;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     text-transform: uppercase;
@@ -74,4 +76,17 @@
 h4{
     line-height: 1px;
     font-size: 23px;
+}
+
+@media (max-width: 768px) {
+    .final-row {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    #AboutUs{
+        width: 80vw;
+    }
+    
 }

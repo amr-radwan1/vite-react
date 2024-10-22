@@ -12,6 +12,7 @@
     justify-content: center; 
     text-align: center; 
     background-repeat: no-repeat;
+    background-color: blueviolet;
     
 }
 
@@ -75,4 +76,12 @@
 .section-One button:hover {
     background-color: rgba(255, 255, 255, 0.9); 
   
+}
+
+@media (max-width: 768px) {
+   .section-One{
+    width: 100vw;
+   }
+
+    
 }

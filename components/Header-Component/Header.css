@@ -10,6 +10,7 @@
     height:100px;
     margin: 0%;
     
+    
 
 }
 .header img{
@@ -43,4 +44,40 @@
 .header-button button:hover{
     color: rgb(92, 64, 51,0.8);
     background-color: rgb(255,99,71,0.1);
+}
+
+MenuIcon{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        background-color: red;
+        position: fixed;
+        top: 0;
+        width: 40vh;
+        z-index: 1000; 
+        justify-content:space-between;
+        padding-top:20%;
+    }
+    .header-button{
+        flex-direction: column;
+        height: 30%;
+        width: 50%;
+        font-size: 12px;
+        align-items: first baseline;
+        justify-content:space-around;
+        background-color: green;
+        right:0px;
+    }
+    .header-button button{
+    border-bottom: 1px black solid;
+    } 
+    .header img{
+       position: absolute;
+       top:0;
+       left: 0;
+    }
+
 }

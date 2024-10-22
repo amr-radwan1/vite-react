@@ -35,6 +35,7 @@
 .Items{
     height:700px;
     background-color: white;
+    
 }
 .ImageHolder{
     background-image:url("https://www.kitchensbyauthentic.ca/wp-content/uploads/2023/11/newly-renovated-kitchen.jpg") ;
@@ -67,7 +68,6 @@ hr{
 }
 .second-row
 {
-    
     font-weight: bold;
 }
 
@@ -99,4 +99,35 @@ hr{
 .Items:hover{
     transform: translateY(-20px);
     transition: transform 0.5s ease;
+}
+
+@media (max-width: 768px) {
+    .second-row {
+         display: flex;
+         flex-direction: column;
+         width: 80vw;
+         gap:0%;
+         margin: auto;
+    }
+
+    .first-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Section_product
+{
+    width: 100vw;
+    padding: 0px;
+    padding-bottom: 150px;
+}
+
+    .Item2{
+    padding:0px;
+    }
+
+    #and{
+      width: 10vw;
+    }
+   
 }
