@@ -7,24 +7,7 @@ function Header(){
     return(
         <div className="header">
              <img src={Logo}/>
-             <IconButton
-                size="large"
-                edge="start"
-                color="inherit"
-                aria-label="menu"
-                sx={{
-                    mr: 2,
-                    display: 'none',
-                    '@media (max-width:768px)': {
-                    display: 'block',
-                    position: 'absolute',
-                    top:'0px',
-                    },
-                }}
->
-  <MenuIcon />
-</IconButton>
-
+             
              <div className="header-button">
                 <a href="#AboutUs">
                      <Button variant="outlined" color="primary">About</Button> 
@@ -37,6 +20,22 @@ function Header(){
                 <Button variant="outlined" color="primary" id="contact-btn">Contact</Button> 
                 
              </div>
+
+             <IconButton
+                size="large"
+                edge="start"
+                color="inherit"
+                aria-label="menu"
+                sx={{
+                    mr: 2,
+                    display: 'none',
+                    '@media (max-width:768px)': {
+                    display: 'block',
+                    },
+                }}
+                    >
+                <MenuIcon className="menubutton"></MenuIcon>
+                </IconButton>
         </div>
        
            

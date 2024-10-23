@@ -15,7 +15,6 @@
 }
 .header img{
     position:absolute;
-    left:20px;
     width:150px;
 }
 .header-button{
@@ -46,30 +45,31 @@
     background-color: rgb(255,99,71,0.1);
 }
 
-MenuIcon{
-    display: none;
-}
+
 
 @media (max-width: 768px) {
     .header {
-        flex-direction: column;
+        display: grid;
         background-color: red;
         position: fixed;
         top: 0;
-        width: 40vh;
+        width: 100vw;
         z-index: 1000; 
         justify-content:space-between;
         padding-top:20%;
     }
+    
+    .menubutton{
+        display: "flex";
+    }
     .header-button{
-        flex-direction: column;
         height: 30%;
-        width: 50%;
+        width: 5vw;
         font-size: 12px;
-        align-items: first baseline;
-        justify-content:space-around;
+        align-items: center;
+        justify-content:center;
         background-color: green;
-        right:0px;
+    
     }
     .header-button button{
     border-bottom: 1px black solid;

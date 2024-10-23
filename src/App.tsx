@@ -18,7 +18,6 @@ function App() {
       <SectionOne />
       <AboutSection />
       <Product />
-
       <Gallery />
       <SectionSix />
       <Contact />

@@ -79,14 +79,41 @@ h4{
 }
 
 @media (max-width: 768px) {
+    .final-row .column{
+        height: fit-content;
+        width: 100vw ;
+        margin-bottom: 2vh;
+        transform: translateY(0%);
+        border: none;
+
+    }
+
+
+    .AboutImg button{
+        height: 50px;
+        width: 120px;
+        
+    }
+
+
     .final-row {
         display: flex;
         flex-direction: column;
-        width: 90vw;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        width: 100vw;
+        margin: auto;
     }
 
     #AboutUs{
-        width: 80vw;
+        width: 95vw;
+        height: fit-content;
     }
     
+
+    .AboutUs-Info{
+        height: fit-content;
+        width: 90vw;
+    }
 }

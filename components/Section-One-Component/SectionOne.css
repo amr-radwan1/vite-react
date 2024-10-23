@@ -74,6 +74,31 @@
    .section-One{
     width: 100vw;
    }
+  
+   .section-One h1 {
+    font-size: 60px; 
+   } 
 
+   .section-One h2 {
+    font-size: 23px; 
+    width: 70vw;
+   } 
+
+   .section-One h3 {
+    font-size: 20px; 
+    width: 70vw;
+   } 
     
+   .section-One button {
+    height: 55px;
+    width: 200px;
+    border-radius: 3px; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    color: #333; 
+    font-size: 20px; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.4s ease; 
+    }
+   
 }
