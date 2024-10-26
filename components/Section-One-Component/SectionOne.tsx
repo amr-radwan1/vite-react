@@ -7,9 +7,9 @@ function SectionOne(){
         <>
         <section className="section-One">
             <div className="section-Content">
-                <h1>Alex</h1>
-                <h2>Home RENOVATIONS</h2>
-                <h3>20+ Years Serving: all-across-the-gta</h3>
+                <h2>ALEX</h2>
+                <h1>HOME RENOVATIONS</h1>
+                <p>20+ Years Serving: all across the gta</p>
                 <Button variant="contained">CONTACT US</Button>
             </div>
         </section>
