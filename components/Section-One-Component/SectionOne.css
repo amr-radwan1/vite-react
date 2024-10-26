@@ -30,7 +30,7 @@
 }
 
 .section-One h2 {
-    font-size: 150px; 
+    font-size: 90px; 
     margin: 0; 
 
 }
@@ -38,11 +38,11 @@
 
 .section-One h1 {
     margin-top: 0.1em;
-    font-size: 100px; 
+    font-size: 64px; 
 
 }
 .section-One p{
-    font-size: 50px; 
+    font-size: 33px; 
 }
 
 .section-One button {
@@ -52,7 +52,7 @@
     border-radius: 5px; 
     background-color:rgba(224, 88, 42, 1);
     color: white; 
-    font-size: 33px; 
+    font-size: 22px; 
     border: none; 
     cursor: pointer; 
     transition: background-color 0.4s ease; 
