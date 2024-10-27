@@ -10,8 +10,7 @@ function Product(){
         <div className="rows first-row">
                 <div>
                     <h1>PRODUCTS</h1>
-                    <h1 id="and"> &</h1>
-                    <h1>SERVICES</h1>
+                    <h1>& SERVICES</h1>
                 </div>
                 <div>
                 <p>

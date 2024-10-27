@@ -31,7 +31,22 @@ function Contact(){
 
                 </div>
                 <div className="Contact-Form">
-                    <form></form>
+                    
+                    <form>
+                        <h1 className='form-title bebas'>SEND NEW MESSAGE</h1>
+                        <div className="form-group">
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required></input>
+                        </div>
+                        <div className="form-group">
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required></input>
+                        </div>
+                        <div className="form-group">
+                            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                        </div>
+                        <div className="form-group">
+                            <button type="submit">Send Message</button>
+                        </div>  
+                    </form>
                 </div>
 
             

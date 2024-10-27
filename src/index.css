@@ -19,3 +19,7 @@ h2 {
     margin-inline-end: 0px;
     unicode-bidi: isolate;
 }
+
+.bebas {
+    font-family: 'Bebas Neue', sans-serif;
+}

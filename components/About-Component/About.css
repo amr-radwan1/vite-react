@@ -8,7 +8,7 @@
     gap:30px;
 }
 .AboutUs-Info h1{
-    font-size: 35px;
+    font-size: 40px;
     color: rgb(62, 43, 34);
 }
 .AboutUs-Info p{
@@ -76,6 +76,10 @@
 h4{
     line-height: 1px;
     font-size: 23px;
+}
+
+.column > h4 {
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 @media (max-width: 768px) {
