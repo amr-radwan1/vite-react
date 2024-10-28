@@ -1,4 +1,5 @@
 import './Contact.css'
+import { TextField, Button } from '@mui/material';
 
 
 function Contact(){
@@ -30,22 +31,37 @@ function Contact(){
                     </div>
 
                 </div>
-                <div className="Contact-Form">
-                    
-                    <form>
-                        <h1 className='form-title bebas'>SEND NEW MESSAGE</h1>
-                        <div className="form-group">
-                            <input type="text" id="name" name="name" placeholder="Enter your name" required></input>
-                        </div>
-                        <div className="form-group">
-                            <input type="email" id="email" name="email" placeholder="Enter your email" required></input>
-                        </div>
-                        <div className="form-group">
-                            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
-                        </div>
-                        <div className="form-group">
-                            <button type="submit">Send Message</button>
-                        </div>  
+                <div className="bg-stone-800 Contact-Form mt-20 border border-solid border-white p-2 lg:mt-0 lg:-translate-y-1/4">
+                    <form  name="message-form" className="white   bg-white grid gap-y-4 py-10 px-5 text-xl lg:gap-y-7">
+                    <h1 className='text-stone-800 font-bold lg:text-3xl'>SEND A MESSAGE</h1>
+                    <TextField id="name" label="YOUR NAME" variant="standard" />
+                    <TextField id="email" label="EMAIL" variant="standard" />
+                    <TextField id="number" label="PHONE NUMBER" variant="standard" />
+                    <TextField id="message" label="ENTER YOUR MESSAGE" variant="standard" 
+                    multiline rows={5} />
+                    <Button
+                    variant="contained"
+                    sx={{
+                        height: { xs: '60px', sm: '75px', md: '90px'},
+                        width: { xs: '150px', sm: '180px', md: '220px' },
+                        borderRadius: '5px',
+                        backgroundColor: 'rgba(221, 44, 0, 0.8)',
+                        color: 'white',
+                        fontSize: { xs: '16px', sm: '18px', md: '20px', lg: '22px' },
+                        fontWeight: 700,
+                        border: 'none',
+                        cursor: 'pointer',
+                        transition: 'background-color 0.4s ease',
+                        justifySelf:"center",
+                        '&:hover': {
+                        backgroundColor: 'rgba(221, 44, 0, 0.6)'
+                        
+                        },
+                    }}
+                    >
+                    CONTACT US
+                    </Button>
+                  
                     </form>
                 </div>
 
